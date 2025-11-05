@@ -10,7 +10,7 @@ Date: 05/11/2025
 
 ---
 
-## 📊 1. Exploratory Data Analysis (EDA)
+## 1. Exploratory Data Analysis (EDA)
 
 The Iris dataset contains **150 samples** of iris flowers from three species:
 - Setosa  
@@ -23,7 +23,7 @@ Each observation includes **4 features**:
 - Petal Length  
 - Petal Width  
 
-### 🔍 Key Insights
+###  Key Insights
 - **Petal features** show clear separation between species.  
 - **Setosa** forms a distinct cluster.  
 - **Versicolor** and **Virginica** slightly overlap.  
@@ -32,7 +32,7 @@ Each observation includes **4 features**:
 
 ---
 
-## 🤖 2. Classification Models
+##  2. Classification Models
 
 | Model              | Accuracy | Kappa | Observation |
 |--------------------|----------|--------|--------------|
@@ -42,13 +42,13 @@ Each observation includes **4 features**:
 
 ---
 
-## ✅ 3. Conclusion
+##  3. Conclusion
 All models performed very well, but **KNN achieved 100% accuracy**, making it the best classifier.  
 **Petal-based features** were most discriminative, while **sepal features** added support.
 
 ---
 
- 4. Technologies Used
+ ## 4. Technologies Used
 - Python 🐍  
 - NumPy  
 - Pandas  
@@ -58,7 +58,7 @@ All models performed very well, but **KNN achieved 100% accuracy**, making it th
 
 ---
 
-## ▶️ 5. Run Instructions
+##  5. Run Instructions
 ```bash
 # Clone this repository
 git clone https://github.com/<your-username>/Iris_Assignment.git
