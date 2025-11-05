@@ -61,7 +61,7 @@ All models performed very well, but **KNN achieved 100% accuracy**, making it th
 ##  5. Run Instructions
 ```bash
 # Clone this repository
-git clone https://github.com/<your-username>/Iris_Assignment.git
+git clone https://github.com/<himani1009>/Iris-Dataset.git
 cd Iris_Assignment
 
 # Install dependencies
