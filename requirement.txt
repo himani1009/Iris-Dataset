@@ -1,5 +1,23 @@
-pandas
-numpy
-matplotlib
-seaborn
-scikit-learn
+# R package dependencies for Iris Dataset Analysis (R Project)
+# Author: Himani Agarwal (PCE23AD024)
+# Date: 05/11/2025
+
+# Core libraries
+ggplot2
+dplyr
+tidyr
+
+# Machine learning and evaluation
+caret
+e1071
+class
+rpart
+rpart.plot
+
+# Visualization helpers
+corrplot
+
+# Optional (for reproducibility / notebook support)
+knitr
+rmarkdown
+
