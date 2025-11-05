@@ -1,71 +1,23 @@
-# 🌸 Iris Dataset Analysis and Classification
+# 🌸 Iris Dataset Analysis and Classification (R)
 
-### 👩‍💻 Author
-**Himani Agarwal**  
-Roll No: PCE23AD024  
-Poornima College of Engineering, Jaipur  
-Department of Advance Computing  
-Faculty: Appoorva Bansal  
-Date: 05/11/2025
+**Author:** Himani Agarwal (Roll No: PCE23AD024)  
+Poornima College of Engineering, Jaipur — Department of Advance Computing  
+Faculty: Appoorva Bansal • Date: 05/11/2025
 
----
+This repo contains R code to perform EDA and classification on the Iris dataset using:
+- Decision Tree (`rpart`)
+- Support Vector Machine (`e1071::svm`)
+- k-Nearest Neighbors (`class::knn`)
 
-## 1. Exploratory Data Analysis (EDA)
+## 🔧 Quick Start
 
-The Iris dataset contains **150 samples** of iris flowers from three species:
-- Setosa  
-- Versicolor  
-- Virginica  
-
-Each observation includes **4 features**:
-- Sepal Length  
-- Sepal Width  
-- Petal Length  
-- Petal Width  
-
-###  Key Insights
-- **Petal features** show clear separation between species.  
-- **Setosa** forms a distinct cluster.  
-- **Versicolor** and **Virginica** slightly overlap.  
-- **Petal Length ↔ Petal Width** correlation ≈ **0.96**  
-- **Sepal Width** shows mild outliers.
-
----
-
-##  2. Classification Models
-
-| Model              | Accuracy | Kappa | Observation |
-|--------------------|----------|--------|--------------|
-| Decision Tree      | 93.33%   | 0.90   | Minor overlap between Versicolor & Virginica |
-| SVM (Linear)       | 96.67%   | 0.95   | Better separation between species |
-| KNN (k=5)          | 100%     | 1.00   | Perfect classification |
-
----
-
-##  3. Conclusion
-All models performed very well, but **KNN achieved 100% accuracy**, making it the best classifier.  
-**Petal-based features** were most discriminative, while **sepal features** added support.
-
----
-
- ## 4. Technologies Used
-- Python 🐍  
-- NumPy  
-- Pandas  
-- Matplotlib  
-- Seaborn  
-- scikit-learn  
-
----
-
-##  5. Run Instructions
 ```bash
-# Clone this repository
-git clone https://github.com/<himani1009>/Iris-Dataset.git
-cd Iris_Assignment
+# clone
+git clone https://github.com/<himani1009>/Iris-Dataset_R.git
+cd Iris_Assignment_R
 
-# Install dependencies
-pip install -r requirements.txt
+# install dependencies (first time)
+Rscript install.R
 
-# Open Jupyter Notebook
-jupyter notebook iris_analysis.ipynb
+# run the analysis script
+Rscript iris_analysis.R
